@@ -9,7 +9,7 @@ public class LoginBean {
 	}
 
 	public String validaUsuario() {
-		if (usuario.equals("Notodocodigo") && "pass".equals(password)  ) {
+		if (usuario.equals("Notodocodigo") && "pass".equals(password) ) {
 			return "usuarioCorrecto";
 		} else {
 			return "usuarioIncorrecto";
